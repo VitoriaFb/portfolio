@@ -13,9 +13,6 @@
 .sobre-mim .imagem-sobre-mim img {
     border: 10px solid transparent;
     border-radius: 5px;
-    width: 396px;
-    height: 396px;
-    object-fit: cover;
 }
 
 .sobre-mim .informacoes-sobre-mim {    
@@ -40,13 +37,12 @@
     }
 
     .sobre-mim .imagem-sobre-mim {        
-        max-width: 50%;
+        max-width: 40%;
         padding: 0 var(--mobile-padding);
         margin-bottom: 50px;
     }
 
     .sobre-mim .informacoes-sobre-mim {  
-        max-width: 50%;
         padding: 0 var(--mobile-padding);
         text-align: center;
     }
@@ -59,9 +55,6 @@
 }
 
 @media(max-width:768px){
-    .sobre-mim .imagem-sobre-mim {
-        max-width: 100%;
-    }
     .sobre-mim .informacoes-sobre-mim {  
         max-width: 100%;                   
     }
